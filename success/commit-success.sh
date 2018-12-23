@@ -23,3 +23,4 @@ set_commit_status() {
 }
 
 set_commit_status
+exit 0
