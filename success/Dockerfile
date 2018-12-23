@@ -12,6 +12,6 @@ RUN apk add --no-cache \
 	curl \
 	jq
 
-ADD commit-success.sh /commit_success.sh
+COPY commit-success.sh /usr/local/bin/commit-success
 
-ENTRYPOINT ["/commit-success.sh"]
+CMD ["commit-success"]
